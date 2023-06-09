@@ -1,0 +1,229 @@
+body {
+    background-color: #e5e5e5;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+/* Right Section Styles */
+.right-section {
+    padding-left: 90px;
+    padding-right: 220px;
+    background-color: white;
+}
+
+.about-me-profession {
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    margin-top: 100px;
+}
+
+#personName {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 30px;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 40px auto;
+}
+
+.about-me-section {
+    width: 400px;
+}
+
+.about-me-section p { 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.projects-section {
+    margin-top: 40px;
+}
+
+.block-title {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: black;
+    
+}
+
+.projects-section ol {
+    padding-left: 20px;
+}
+
+ol li, .bracket {
+    font-weight: 700;
+    color: black;
+}
+
+
+.projects-item {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #595959;
+    margin-left: 10px; 
+}
+
+.projects-item a {
+    color: #595959;
+}
+
+.work-experience-section {
+    margin-top: 50px;
+}
+
+.work-experience-position {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.work-experience-company {
+    color: orange;
+}
+
+.work-experience-period {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ababab;
+}
+
+.line-break {
+    color: black;
+}
+
+.work-experience-duties {
+    padding-left: 20px;
+}
+
+.work-experience-duties li {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.education-college { 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: orange;
+}
+
+.education-profession {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: black;
+}
+
+.education-period {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ababab;
+}
+
+.education-section {
+    padding-bottom: 110px;
+    padding-top: 40px;
+}
+
+/* Sidebar Styles */
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.sidebar-section {
+    background-color: #1e2939;
+    width: 370px;
+}
+
+.sidebar-section img {
+    margin-top: 40px;
+}
+
+.sidebar-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+}
+
+.contacts-section {
+    margin-left: 40px;
+} 
+
+.tech-skills-section {
+    margin-left: 40px;
+}
+
+.contacts-section-type {
+    font-size: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    margin-right: 10px;
+}
+
+.contacts-section-value {
+    font-size: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #3A4352;
+    
+}
+
+.sidebar-list {
+    color: orange;
+    padding-left: 20px;
+}
+
+.sidebar-list span {
+    font-size: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+}
+
+.soft-skills-section { 
+    padding-left: 40px;
+}
